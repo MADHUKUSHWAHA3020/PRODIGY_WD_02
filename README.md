@@ -1,1 +1,2 @@
-# PRODIGY_WD_02
+# WebApps
+Creating basic applications using basic web dev

@@ -1,0 +1,58 @@
+body{
+    background-color: #4fc5cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: rgb(6, 6, 3);
+}
+
+.digit{
+    font-size: 120px;
+    font-weight: bold;
+    cursor: default;
+}
+.digit::selection{
+    background-color: none;
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    cursor: default;
+}
+
+.txt::selection{
+    background-color: none;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: rgb(44, 52, 200);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#start{
+    background-color: rgb(143, 231, 99);
+}
+
+#stop{
+    background-color: rgb(213, 229, 124);
+}
+
+#reset{
+    background-color: rgb(201, 110, 121);
+}
