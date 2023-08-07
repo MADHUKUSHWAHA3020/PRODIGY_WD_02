@@ -1,2 +1,1 @@
-# WebApps
-Creating basic applications using basic web dev
+creating smart watch using Html
